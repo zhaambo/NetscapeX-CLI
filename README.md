@@ -1,5 +1,4 @@
 # NetscapeX CLI
-# NetscapeX CLI
 
 NetscapeX is a lightweight, modular Python CLI for basic PCAP analysis and
 security-oriented flow inspection. It reconstructs IP flows, extracts
