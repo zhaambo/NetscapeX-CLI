@@ -1,0 +1,68 @@
+{
+  "flow-1": {
+    "features": {
+      "flow_id": "flow-1",
+      "src": "10.0.2.15",
+      "dst": "82.161.239.177",
+      "protocol": "TCP",
+      "pkt_count": 12321,
+      "duration": 3361.447655916214,
+      "iat_mean": 0.2728447772659265,
+      "iat_var": 52.842381317668966,
+      "pkt_size_mean": 136.16199983767552,
+      "pkt_size_var": 38436.61039268923,
+      "burst_count": 70,
+      "ml_prob_encrypted": 0.35
+    },
+    "detections": {
+      "ml_prob_encrypted": 0.35,
+      "beaconing": {
+        "flag": false,
+        "score": 0.0
+      },
+      "dns_tunnel": {
+        "flag": false,
+        "reasons": []
+      },
+      "protocol_anomaly": {
+        "flag": false,
+        "anomalies": []
+      },
+      "risk_score": 17.5,
+      "confidence": 0.19
+    }
+  },
+  "flow-2": {
+    "features": {
+      "flow_id": "flow-2",
+      "src": "82.161.239.177",
+      "dst": "10.0.2.15",
+      "protocol": "TCP",
+      "pkt_count": 23142,
+      "duration": 3361.446082830429,
+      "iat_mean": 0.14525932685840842,
+      "iat_var": 28.15318669814265,
+      "pkt_size_mean": 1254.697303603837,
+      "pkt_size_var": 175914.41079473446,
+      "burst_count": 70,
+      "ml_prob_encrypted": 0.3
+    },
+    "detections": {
+      "ml_prob_encrypted": 0.3,
+      "beaconing": {
+        "flag": false,
+        "score": 0.0
+      },
+      "dns_tunnel": {
+        "flag": false,
+        "reasons": []
+      },
+      "protocol_anomaly": {
+        "flag": false,
+        "anomalies": []
+      },
+      "risk_score": 15.0,
+      "confidence": 0.17
+    }
+  }
+}

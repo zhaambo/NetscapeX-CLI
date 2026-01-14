@@ -1,0 +1,25 @@
+{
+  "flow-1": {
+    "features": {
+      "flow_id": "flow-1",
+      "src": "10.0.0.1",
+      "dst": "8.8.8.8",
+      "protocol": "UDP",
+      "pkt_count": 5,
+      "duration": 12.34,
+      "iat_mean": 3.08,
+      "iat_var": 0.12,
+      "pkt_size_mean": 78.2,
+      "pkt_size_var": 10.5,
+      "burst_count": 2
+    },
+    "detections": {
+      "ml_prob_encrypted": 0.12,
+      "beaconing": { "flag": false, "score": 0.0 },
+      "dns_tunnel": { "flag": false, "reasons": [] },
+      "protocol_anomaly": { "flag": false, "anomalies": [] },
+      "risk_score": 6.0,
+      "confidence": 0.1
+    }
+  }
+}
